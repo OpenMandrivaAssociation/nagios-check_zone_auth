@@ -31,7 +31,7 @@ install -d -m 755 %{buildroot}%{_sysconfdir}/nagios/plugins.d
 cat > %{buildroot}%{_sysconfdir}/nagios/plugins.d/check_zone_auth.cfg <<'EOF'
 define command{
 	command_name	check_zone_auth
-	command_line	%{_libdir}/nagios/plugins/check_zone_auth -H $HOSTADDRESS$
+	command_line	%{_libdir}/nagios/plugins/check_zone_auth -Z $HOSTADDRESS$
 }
 EOF
 
