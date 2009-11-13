@@ -1,6 +1,6 @@
 %define name	nagios-check_zone_auth
-%define version	1.11
-%define release	%mkrel 2
+%define version	1.12
+%define release	%mkrel 1
 
 Name:		%{name}
 Version:	%{version}
