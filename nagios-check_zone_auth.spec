@@ -8,7 +8,7 @@ Release:	%{release}
 Summary:	Check DNS zones synchronisation
 Group:		Networking/Other
 License:	BSD
-URL:		http://dns.measurement-factory.com/tools/nagios-plugins/check_zone_auth.html
+URL:		https://dns.measurement-factory.com/tools/nagios-plugins/check_zone_auth.html
 Source0:	http://dns.measurement-factory.com/tools/nagios-plugins/src/check_zone_auth
 BuildArch:  noarch
 BuildRoot:  %{_tmppath}/%{name}-%{version}
